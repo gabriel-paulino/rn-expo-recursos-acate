@@ -1,4 +1,6 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet, Dimensions } from "react-native";
+
+const window = Dimensions.get("window");
 
 export default StyleSheet.create({
   container: {
@@ -9,5 +11,9 @@ export default StyleSheet.create({
   },
   text: {
     fontSize: 22,
+  },
+  map: {
+    width: window.width,
+    height: window.height,
   },
 });
