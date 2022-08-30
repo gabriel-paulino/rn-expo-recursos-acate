@@ -5,7 +5,7 @@ import styles from "./style";
 export default function Maps() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Camera</Text>
+      <Text style={styles.text}>Maps</Text>
     </View>
   );
 }
