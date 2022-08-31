@@ -16,4 +16,13 @@ export default StyleSheet.create({
     width: window.width,
     height: window.height,
   },
+  logo: {
+    width: 180,
+    height: 20,
+  },
+  textCallout: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    textAlign: 'center',
+  },
 });
