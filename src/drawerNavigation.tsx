@@ -5,6 +5,7 @@ import { createDrawerNavigator } from "@react-navigation/drawer";
 import Home from "./screens/home";
 import CameraScreen from "./screens/camera";
 import Maps from "./screens/maps";
+import NotificationsApp from "./screens/notifications";
 
 import "react-native-gesture-handler";
 
@@ -16,6 +17,7 @@ export default function DrawerNavigaton() {
         <Drawer.Screen name="Home" component={Home} />
         <Drawer.Screen name="Camera" component={CameraScreen} />
         <Drawer.Screen name="Maps" component={Maps} />
+        <Drawer.Screen name="Notifications" component={NotificationsApp} />
       </Drawer.Navigator>
     </NavigationContainer>
   );
