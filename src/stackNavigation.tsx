@@ -2,9 +2,9 @@ import { NavigationContainer } from "@react-navigation/native";
 
 import { createStackNavigator } from "@react-navigation/stack";
 
-import Home from "./screens/home";
-import CameraScreen from "./screens/camera";
-import Maps from "./screens/maps";
+import Home from "src/screens/home";
+import CameraScreen from "src/screens/camera";
+import Maps from "src/screens/maps";
 
 const { Navigator, Screen } = createStackNavigator();
 

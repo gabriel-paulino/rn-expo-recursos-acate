@@ -11,6 +11,16 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/favicon",
+          "color": "#ABCA1B",
+          "sounds": ["./assets/notifications.wav"]
+        }
+      ]
+    ],
     "updates": {
       "fallbackToCacheTimeout": 0
     },

@@ -2,10 +2,10 @@ import { NavigationContainer } from "@react-navigation/native";
 
 import { createDrawerNavigator } from "@react-navigation/drawer";
 
-import Home from "./screens/home";
-import CameraScreen from "./screens/camera";
-import Maps from "./screens/maps";
-import NotificationsApp from "./screens/notifications";
+import Home from "src/screens/home";
+import CameraScreen from "src/screens/camera";
+import Maps from "src/screens/maps";
+import NotificationsApp from "src/screens/notifications";
 
 import "react-native-gesture-handler";
 
