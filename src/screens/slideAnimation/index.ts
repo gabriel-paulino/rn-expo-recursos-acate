@@ -1,7 +1,4 @@
-export {default} from './slideAnimation'
+export { default } from './slideAnimation';
+import { itens } from './Model';
 
-import { items } from "./model";
-
-export const assets = items.map((item, index) => {
-  item.picture;
-});
+export const assets = itens.map((item) => item.picture)
