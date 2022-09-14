@@ -18,7 +18,8 @@ export default function Home() {
       <Button title="Camera" onPress={() => handleScreen("Camera")}></Button>
       <Button title="Maps" onPress={() => handleScreen("Maps")}></Button>
       <Button title="Notifications" onPress={() => handleScreen("Notifications")}></Button>
-      <Button title="SlideAnimation" onPress={() => handleScreen("SlideAnimation")}></Button>
+      <Button title="Slide Animation" onPress={() => handleScreen("Slide Animation")}></Button>
+      <Button title="Slide Horizontal Animation" onPress={() => handleScreen("Slide Horizontal Animation")}></Button>
     </View>
   );
 }
