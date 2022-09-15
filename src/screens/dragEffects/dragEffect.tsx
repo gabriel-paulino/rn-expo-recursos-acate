@@ -1,7 +1,9 @@
 import { View, Text } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-import Tile from './Tile';
+import {} from "./Config";
+import Tile from "./Tile";
+import SortableList from "./SortableList";
 
 const tiles = [
   {
@@ -42,11 +44,20 @@ const tiles = [
   },
 ];
 
-export default function DragEffects() {
+export default function DragItems() {
   return (
     <SafeAreaView>
       <View>
-        <Text>Drag Effects</Text>
+        <SortableList>
+          {[...tiles, ...tiles].map((tile, index) => (
+            <Tile
+              key={`${tile.id}-${index}`}
+              id={`${tile.id}-${index}`}
+              uri={tile.uri}
+              onLongPress={() => true}
+            />
+          ))}
+        </SortableList>
       </View>
     </SafeAreaView>
   );
