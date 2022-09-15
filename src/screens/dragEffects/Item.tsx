@@ -1,6 +1,5 @@
 import React, { ReactNode } from "react";
 import Animated, {
-  scrollTo,
   useAnimatedGestureHandler,
   useAnimatedReaction,
   useAnimatedStyle,
@@ -24,7 +23,6 @@ import {
   getPosition,
   SIZE,
   IPosition,
-  MARGIN,
 } from "./Config";
 
 interface IItemProps {
